@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="253.0" prefWidth="150.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.kimsimon.calculatorwiththreads.UiController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="253.0" prefWidth="150.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="de.kimsimon.calculatorwiththreads.UiController">
    <children>
       <TextField fx:id="textBox" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="121.0" promptText="0" />
       <Button id="1" layoutX="14.0" layoutY="50.0" mnemonicParsing="false" onAction="#on1Click" text="1" />

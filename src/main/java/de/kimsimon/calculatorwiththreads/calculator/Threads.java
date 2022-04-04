@@ -11,6 +11,10 @@ public class Threads extends Thread{
         this.node = node;
     }
 
+    /**
+     * Startet einen Thread, der eine Node ausrechnet.
+     */
+
     @Override
     public void run() {
         result = node.getValue();

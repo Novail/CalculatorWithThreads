@@ -15,8 +15,6 @@ public class Calculator extends Application {
         stage.setTitle("Calculator 'Thready'");
         stage.setScene(scene);
         stage.show();
-
-        Parser formula = new Parser();
     }
 
     public static void main(String[] args) {
